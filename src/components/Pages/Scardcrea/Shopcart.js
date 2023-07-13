@@ -9,7 +9,7 @@ function Shopcart({ data = {} }) {
           <img
             src={data.src}
             alt=""
-            style={{ height: "550px", width: "750px" }}
+            style={{ height: "500px", width: "700px" }}
           />
         </div>
         <div style={{ width: "900px", marginLeft: "232px" }}>

@@ -3,11 +3,11 @@ import { NavLink, Routes, Route } from "react-router-dom";
 import Bcardcrea from "./Bcardcrea";
 
 export default function Scardcrea({ data = {} }) {
-
+  console.log(data.src);
   return (
     <div
       className="col-md-4"
-      style={{ marginTop: "44px", marginRight: "-80px" }}
+      style={{ marginTop: "44px", marginRight: "-80px", height: "500px" }}
     >
       <ul>
         <div

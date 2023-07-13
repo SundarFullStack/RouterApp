@@ -7,13 +7,15 @@ import Datascience from "../Datascience";
 import Career from "../Career";
 import All from "./All";
 import Bcardcrea from "../Scardcrea/Bcardcrea";
+import guvi from "./Images/guvi.png";
+import blogHead from "./Images/blogHead.png";
 
 let array = [
   [
     {
       id: 1,
       link: "/Bcardcrea/1",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-Business-Analyst-An-Insight-into-Their-Life.jpg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1mGJoG2jdFHneX6PBxp5kksM14ERrRp5vHev2ttBzzBZUSqYi896VmOYjwOx4Ry7-Xo&usqp=CAU",
       name: "Business Analyst – An Insight into Their Life",
       Desc: "Have you ever wondered how business tends to maintain everything in proper order despite having",
       subDesc:
@@ -22,7 +24,7 @@ let array = [
     {
       id: 2,
       link: "/Bcardcrea/2",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/Corporate-Training-programs-2-1200x675.jpg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvIY_qeVjQu1mDTlkGUlMp7ukUhXRkbr8zLl3JdB5xSpbbbRQ2XluSLHlvDysPN3A12Gk&usqp=CAU",
       name: "10 Best Corporate Training Programs for Employees in 2023",
       Desc: "Are you looking to supercharge your workforce and leverage its true power? Look no further",
       subDesc:
@@ -31,7 +33,7 @@ let array = [
     {
       id: 3,
       link: "/Bcardcrea/3",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-Business-Analyst-Interview-Questions-With-Answers-1.jpg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5uCHfrubE9D7oHCE-wNFceDeUc2ha9R4ZRAA9OfcniV0CAMTrf1g6ilB0Cq4r-_GNMY&usqp=CAU",
       name: "Top Statistical Programming Languages of 2023",
       Desc: "In this ever-growing vast field of technology, programming languages play a pivotal role in its",
       subDesc:
@@ -43,7 +45,7 @@ let array = [
     {
       id: 4,
       link: "/Bcardcrea/4",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/02/1_6rDcIgFJQldloIERiUSmzw.png",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSPAljr9lvfWYdEcFgGuKjS8DkpC7isk8q2RjSJuy_kyCsboJ7xshIV_nY-dQMumFSgQ&usqp=CAU",
       name: "How does Apache work? A detailed introduction to Apache",
       Desc: "Apache is the most widely used web server in the world, powering over 40% of all websites on the internet.",
       subDesc:
@@ -52,7 +54,7 @@ let array = [
     {
       id: 5,
       link: "/Bcardcrea/5",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5Y-CCgWk2cr-yiziy9uODKuwJV5OxM3yeBgTK5D7vhpYMA2X1c1N75c18thS843Vd9g&usqp=CAU",
       name: "Do you want to become a full stack developer? If yes, you must definitely know",
       Desc: "Apache is the most widely used web server in the world, powering over 40% of all websites on the internet.",
       subDesc:
@@ -61,7 +63,7 @@ let array = [
     {
       id: 6,
       link: "/Bcardcrea/6",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/06/software-engineering-internships.png",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvNGA9IwjjpnnK44RY9sPdKPJ4b74paslmKcgLfLRdABX1nNDH2fPRFV8AfCCGZu8cioQ&usqp=CAU",
       name: "Software development is set to grow at the rate of 25% between 2021-2031. An illustrious",
       Desc: "Apache is the most widely used web server in the world, powering over 40% of all websites on the internet.",
       subDesc:
@@ -72,7 +74,7 @@ let array = [
     {
       id: 7,
       link: "/Bcardcrea/7",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/06/VMWARE-Vs-VIRTUAL-BOX-1536x864.png",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwzl3JMeU3z6_EB8a09AtBXHN1g0GSavdj3w2argphZhi6reFVtGTA-LcyjdekGjkXfA&usqp=CAU",
       name: "In today’s fast-paced world, where technology is evolving at an unprecedented rate, virtualization has emerged",
       Desc: "From optimizing our search history on Amazon to providing us with the best Netflix movie",
       subDesc:
@@ -81,8 +83,8 @@ let array = [
     {
       id: 8,
       link: "/Bcardcrea/8",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2022/07/5.-Top-Data-Science-applications-and-use-cases-for-businesses.png",
-      name: "Top 7 Data Science Applications & Use Cases For Businesses",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV-GSn_Bv5iqVc0krg99HTcz5XL_G7urEj8_AxcAvCEZeOv2qFqJHm1eMHAH-3ag9GPpQ&usqp=CAU",
+       name: "In today’s fast-paced world, where technology is evolving at an unprecedented rate, virtualization has emerged",
       Desc: "From optimizing our search history on Amazon to providing us with the best Netflix movie",
       subDesc:
         "In today’s fast-paced world, where technology is evolving at an unprecedented rate, virtualization has emerged as a game-changing concept in software development and IT infrastructure. It has revolutionized how we deploy, manage, and utilize computing resources, making it an indispensable tool in the modern digital landscape. Virtualization has become the norm for software and operating system testing",
@@ -90,7 +92,7 @@ let array = [
     {
       id: 9,
       link: "/Bcardcrea/9",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2022/08/Data-Science-interviews-1200x675.jpg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQciTr-XTUERTMI7PaeBsE76IKdB7PjxTD-7XiMADalT_GpX-UNoODmCpSuhgTZrpZqZPU&usqp=CAU",
       name: "6 Tips & Tricks to Crack Data Science Interviews",
       Desc: "From optimizing our search history on Amazon to providing us with the best Netflix movie",
       subDesc:
@@ -101,7 +103,7 @@ let array = [
     {
       id: 10,
       link: "/Bcardcrea/10",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2022/11/Blue-Purple-Futuristic-Virus-Hacks-Youtube-Thumbnail-1200x675.png",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEG13MKfIvNibfuxuOaqNRFwV7uIKmzelzkgPQzi4oNoV6iLyB0Nlf_2tG-wjpy1lD6_Y&usqp=CAU",
       name: "Top 10 Ethical Hacking Books for Beginner to Advanced",
       Desc: "Did you know that according to the University of Maryland hackers attack every 39 seconds",
       subDesc:
@@ -110,7 +112,7 @@ let array = [
     {
       id: 11,
       link: "/Bcardcrea/11",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeo4y9wCl9CKWofCIwry3X9vn7AHvn_E5GFuJwDDL4dipkQC-vVOlbDU4JmRiQQ-uFmS4&usqp=CAU",
       name: "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
       Desc: "Look around today, you will witness that we are more reliant on technology and devices",
       subDesc:
@@ -119,7 +121,7 @@ let array = [
     {
       id: 12,
       link: "/Bcardcrea/12",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGWQIFONmCDChVcOI6GLciqNk8GuEPWARs4h2N5kofqV5TbsoMDlo2c9u-hNg3VtOeDgw&usqp=CAU",
       name: "Many people ask how important is coding for cybersecurity, and the lawyerly answer is: Well,",
       Desc: "Data science is one of the world’s top lucrative career choices.",
       subDesc:
@@ -130,7 +132,7 @@ let array = [
     {
       id: 13,
       link: "/Bcardcrea/13",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/06/what-is-production-management.jpg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrgY04k0pl7KG-vy88u-EyiCJqMPkQtNAMIm-WhxIUxcDWPoysI9EPJSNfFUgLhoQRc4&usqp=CAU",
       name: "What is Production Management | The Ultimate Guide",
       Desc: "In today’s constantly evolving business landscape, production managers are essential to the success of any",
       subDesc:
@@ -139,7 +141,7 @@ let array = [
     {
       id: 14,
       link: "/Bcardcrea/14",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/06/top-career-options-in-india-1536x864.jpg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcMM7UAuSskmF3jItR1b9nVbGfvlZoj-LUZB1vh7XM3hBW6o3veNwHek6sdHEc4EYyYFE&usqp=CAU",
       name: "Top Career Options in India in 2023",
       Desc: "In today’s rapidly changing world, career choices carry immense significance. As the job market undergoes",
       subDesc:
@@ -148,7 +150,7 @@ let array = [
     {
       id: 15,
       link: "/Bcardcrea/15",
-      src: "https://www.guvi.in/blog/wp-content/uploads/2023/06/TCS-NQT-EXAM-2023.jpg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdOHm65yRInCE-xVuI-IrlWjva7kt2pjQmie6VDOuJyoRTXsZrPS0_LcBS46rvKBjzSrY&usqp=CAU",
       name: "What is TCS NQT | Everything You Need to Know",
       Desc: "As a fresh graduate, your goal is to join a reputable company and start your",
       subDesc:
@@ -167,10 +169,7 @@ function Router() {
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"
-              alt=""
-            />
+            <img src={guvi} alt="" style={{ width: "105px", height: "50px" }} />
           </a>
           <button
             className="navbar-toggler"
@@ -233,7 +232,7 @@ function Router() {
       <div className="mt-1">
         <div className="card text-center mb-3" id="frontCard">
           <img
-            src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-1536x236.png"
+            src={blogHead}
             alt=""
             style={{ width: "75%", marginLeft: "12%" }}
             className="img-fluid mt-3"
